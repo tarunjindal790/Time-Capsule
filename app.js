@@ -12,6 +12,8 @@ const express=require("express"),
 	  env=require('dotenv');
 
 env.config();
+
+const port=process.env.PORT||3000;
 var storage=multer.diskStorage({
 	filename:function(req,file,callback){
 		callback(null,Date.now()+file.originalname);
@@ -102,6 +104,6 @@ app.post("/submit",upload.single('image'),function(req,res){
 
 
 
-app.listen("3000","0.0.0.0",function(){
+app.listen(port,function(){
 	console.log("Starting app...");
 })
