@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>A TIME CAPSULE!</title>
+		<link rel="stylesheet" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+		<script src="scripts.js"></script>
+	</head>
+<div class="container">
+	<!-- <p class="pixelart-to-css"></p> -->
+	<div class="header">
+	<h1>TIME CAPSULE</h1>
+	<h2>A Message To Your Future Self</h2>
+	</div>
+	<img src="head.gif" alt="" id="head-image">
+	<form action="/submit" method="POST" enctype="multipart/form-data">
+		<p>Message:</p>
+		<textarea type="text" name="message" cols="30" rows="10"></textarea>
+		<p>Image</p>
+		<input type="file" id="image" name="image" accept="image/*">
+		<p>Select Date</p>
+		<input type="date" name="dateInput">
+		<p>Select Time</p>
+		<input type="time" name="timeInput">
+
+		<!-- <p>Select date:</p>
+		<input type="text" name="date">
+		<p>Select month:</p>
+		<input type="text" name="month">
+		<p>Select year:</p>
+		<input type="text" name="year"> -->
+		<!-- <p>Select hour:</p>
+		<input type="text" name="hour">
+		<p>Select minute</p>
+		<input type="text" name="minute"> -->
+		<p>Your email address : </p>
+		<input type="text" name="toAddress">
+		<button id="add-image">Add Image(optional)</button>
+		<button id="add-video">Add Video(optional)</button>
+		<button id="submit">Submit</button>
+	</form>
+</div>
+</html>

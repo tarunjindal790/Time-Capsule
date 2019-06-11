@@ -1,0 +1,20 @@
+v4
+
+Tasks:
+	Image and Video Upload
+
+Best Way:
+	Upload on cloud
+	Insert into db with unique id as email
+	
+
+
+Did:
+	1.Used cloudinary api to uplaod to server
+	2.Set img src in mail body
+
+
+Next Steps:
+	1.Db integrations
+	2.Login facility
+	3.UI changes

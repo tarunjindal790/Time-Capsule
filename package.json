@@ -1,0 +1,25 @@
+{
+  "name": "timecapsule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tarun Jindal",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.14.0",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "l": "^0.6.0",
+    "moment": "^2.22.2",
+    "multer": "^1.4.1",
+    "node-cron": "^2.0.1",
+    "node-schedule": "^1.3.0",
+    "request": "^2.88.0"
+  }
+}
